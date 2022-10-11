@@ -1,0 +1,9 @@
+/* INSTRUCTIONS
+Complete the function/method so that it returns the url with anything after the anchor (#) removed.
+*/
+
+//  ANSWER
+
+function removeUrlAnchor(url){
+    return url.replace(/#.*/,'')
+  }
